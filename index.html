@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset\style.css" />
+    <title>Formulaires</title>
+  </head>
+  <body>
+    <section>
+      <form action="" method="">
+        <label for="prenom">Prénom:</label> <br />
+        <input
+          type="text"
+          id="prenom"
+          name="prenom"
+          placeholder="Entrez votre prénom!"
+        />
+      </form>
+      <br />
+      <form action="" method="">
+        <label for="nom">Nom:</label> <br />
+        <input
+          type="text"
+          id="nom"
+          name="nom"
+          placeholder="Entrez votre nom!"
+        />
+      </form>
+      <br />
+      <form action="" method="">
+        <label for="age">Age:</label> <br />
+        <input
+          type="number"
+          id="age"
+          name="age"
+          placeholder="Entrez votre âge!"
+        />
+      </form>
+      <br />
+      <form action="" method="">
+        <label for="note">Note:</label> <br />
+        <input
+          type="number"
+          id="note"
+          name="note"
+          placeholder="Entrez votre note!"
+        />
+      </form>
+      <br /><label for="message">Complément d'informations:</label> 
+      <textarea
+        name="auto-appreciation"
+        id="message"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br />
+      <form action="" method="">
+        <select name="matiere" id="matiere">
+          <option value="mathematiques">Mathématiques</option>
+          <option value="francais">Français</option>
+          <option value="developpementweb">Développement web</option>
+          <option value="anglais">Anglais</option>
+        </select>
+      </form> <br>
+      <form action="" method="">
+        <label for="lecon">La leçon</label> <br />
+        <input list="lecon" />
+        <datalist id="lecon">
+          <option value="design"></option>
+          <option value="front"></option>
+          <option value="back"></option>
+        </datalist>
+      </form> <br>
+      <button>Envoyer</button>
+    </section>
+  </body>
+</html>
