@@ -1,7 +1,40 @@
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 100px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(181, 235, 255);
+  border-radius: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+input,
+select {
+  width: 235px;
+  height: 50px;
+}
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  background-color: royalblue;
+  font-size: 30px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+button:hover {
+  background-color: purple;
+  cursor: pointer;
+  translate: 0px -10px;
+  transition: 0.5s;
+}
+label {
+  font-size: 21px;
+  color: royalblue;
+}
+body {
+  background-image: url(/asset/0030791_animal-print_600.jpg);
 }
